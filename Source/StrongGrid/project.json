@@ -18,7 +18,7 @@
 		}
 	},
 	"dependencies": {
-		"HttpMultipartParser": "2.2.0",
+		"HttpMultipartParser": "2.2.3",
 		"Newtonsoft.Json": "9.0.1",
 		"StyleCop.Analyzers": {
 			"version": "1.0.0",
@@ -40,7 +40,7 @@
 				"define": [ "NETFULL" ]
 			},
 			"dependencies": {
-				"System.Net.Http": "4.0.0"
+				"System.Net.Http": "2.0.20710"
 			},
 			"frameworkAssemblies": {
 				"System.Runtime.Serialization": "4.0.0"
