@@ -19,7 +19,6 @@
 	},
 	"dependencies": {
 		"HttpMultipartParser": "2.2.0",
-		"Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
 		"Newtonsoft.Json": "9.0.1",
 		"StyleCop.Analyzers": {
 			"version": "1.0.0",
@@ -38,7 +37,7 @@
 		},
 		"net452": {
 			"buildOptions": {
-				"define": [ "NET452" ]
+				"define": [ "NETFULL" ]
 			},
 			"dependencies": {
 				"System.Net.Http": "4.0.0"
@@ -48,5 +47,5 @@
 			}
 		}
 	},
-	"version": "0.18.0-*"
+	"version": "0.18.1-*"
 }
